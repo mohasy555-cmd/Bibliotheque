@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="bibliotheque" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/bibliotheque" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/bibliotheque" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="main.c" />
+		<Unit filename="structures.h" />
+		<Unit filename="utils.h" />
+		<Unit filename="utils.c" />
+		<Unit filename="utilisateur.h" />
+		<Unit filename="utilisateur.c" />
+		<Unit filename="auteur.h" />
+		<Unit filename="auteur.c" />
+		<Unit filename="categorie.h" />
+		<Unit filename="categorie.c" />
+		<Unit filename="livre.h" />
+		<Unit filename="livre.c" />
+		<Unit filename="emprunt.h" />
+		<Unit filename="emprunt.c" />
+		<Unit filename="retour.h" />
+		<Unit filename="retour.c" />
+		<Unit filename="reservation.h" />
+		<Unit filename="reservation.c" />
+		<Unit filename="penalite.h" />
+		<Unit filename="penalite.c" />
+		<Unit filename="menu.h" />
+		<Unit filename="menu.c" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
